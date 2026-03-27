@@ -139,6 +139,12 @@ proxy.ts                        Session refresh on every request
 .env.example                    Environment variables template
 ```
 
+## Live demo
+
+[https://ts-tool-agent.vercel.app](https://ts-tool-agent.vercel.app)
+
+> Demo accounts are limited to 8000 tokens. Create an account to try the agent.
+
 ## Context
 
 Built as Week 4 of a 12-month roadmap transitioning from Laravel/PHP to AI
