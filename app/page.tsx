@@ -1,10 +1,8 @@
 import { redirect } from 'next/navigation'
 import { createClient } from '@/lib/supabase/server'
 import Image from "next/image";
-import ChatBox from "./_components/ChatBox"
 import AgentBox from './_components/AgentBox';
-import { getTokensUsed } from './_actions/chat'
-
+import { getTokensUsed } from './_actions/agent'
 
 export default async function Home() {
 	const supabase = await createClient()
